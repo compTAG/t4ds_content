@@ -991,7 +991,8 @@ Download and import the library `gdal` library, and import `sp` which is a built
 
 `NOTE: The rgdal library has recently been retired. Former versions can be downloaded at the address below. We are working actively on a transition to an alternate package.`
 
-Old versions of the library are available [here](https://cran.r-project.org/src/contrib/Archive/rgdal/).
+Old versions of the library are available [here](https://cran.r-project.org/src/contrib/Archive/rgdal/). Depending on your setup, it should be possible
+to install the package using `install.packages("rgdal", type="source")`. See [this forum for troubleshooting](https://stackoverflow.com/questions/76868135/r-package-rgdal-can-not-be-installed) until we have a permanent fix.
 
 ```
 install.packages("rgdal")
