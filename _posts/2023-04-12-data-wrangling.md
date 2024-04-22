@@ -989,6 +989,8 @@ the directory `MontanaCounties_shp` should be created after it is unzipped.
 To manipulate shape data, we will use the `rgdal` and the `spatial polygons` library.
 Download and import the library `gdal` library, and import `sp` which is a built-in library in R:
 
+`NOTE: The rgdal library has recently been retired. Former versions can be downloaded at the address [here](https://cran.r-project.org/src/contrib/Archive/rgdal/). We are working actively on a transition to an alternate package.`
+
 ```
 install.packages("rgdal")
 library(rgdal)
